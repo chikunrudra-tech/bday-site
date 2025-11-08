@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>💖 Happy Birthday Gurumaa 🌸</title>
+
+<style>
+:root {
+  --bg1: #2b0b3a;
+  --bg2: #120327;
+  --accent: #ff99cc;
+  --gold: #ffd27f;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: radial-gradient(circle at top left, var(--bg1), var(--bg2));
+  color:#fff;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  overflow:hidden;
+  text-align:center;
+}
+.container {
+  max-width:960px;
+  background:rgba(255,255,255,0.05);
+  border-radius:24px;
+  padding:40px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.4);
+  position:relative;
+}
+h1 {
+  font-size:60px;
+  text-shadow:0 0 20px #ffb6f9, 0 0 40px #ff79c6;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { text-shadow:0 0 10px #ff9ff3, 0 0 20px #ff79c6; }
+  to { text-shadow:0 0 30px #ffd1dc, 0 0 60px #ffb6f9; }
+}
+.subtitle {
+  font-size:26px;
+  margin-top:12px;
+  opacity:0.9;
+}
+.bigwish {
+  font-size:32px;
+  margin:24px auto;
+  background: linear-gradient(90deg, #ffd6e8, #ffb3d2, #ff87ca, #ffd6e8);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  font-weight:bold;
+  animation: sparkle 4s linear infinite;
+}
+@keyframes sparkle {
+  0% {background-position:0%;}
+  100% {background-position:400%;}
+}
+.message {
+  font-size:22px;
+  background:linear-gradient(90deg,rgba(255,255,255,0.08),transparent);
+  padding:18px;
+  border-radius:14px;
+  margin:0 auto 16px;
+}
+
+/* Cute Cat */
+.cat-wrap { display:flex; justify-content:center; margin-top:20px; }
+.cat { width:220px; height:200px; position:relative; }
+.ear {
+  width:60px; height:60px;
+  background:linear-gradient(180deg,#ffd6e8,#ff7ab6);
+  position:absolute; top:6px;
+  border-radius:50% 50% 30% 30%;
+  box-shadow:inset -6px -6px 10px rgba(0,0,0,0.06);
+}
+.ear.right { right:10px; transform:rotate(20deg); }
+.ear.left { left:10px; transform:rotate(-20deg); }
+.head {
+  width:180px; height:160px;
+  border-radius:50% 50% 44% 44%;
+  background:linear-gradient(180deg,#ffd6e8,#ff7ab6);
+  position:absolute; left:20px; top:20px;
+  box-shadow:0 8px 30px rgba(0,0,0,0.25);
+}
+.eye { width:22px; height:28px; background:#20102b; border-radius:50%; position:absolute; top:60px; }
+.eye.left { left:44px; }
+.eye.right { right:44px; }
+.pupil {
+  width:8px; height:10px; background:linear-gradient(180deg,#fff,#d6f6ff);
+  border-radius:50%; position:absolute; left:7px; top:7px;
+  animation:blink 6s infinite;
+}
+@keyframes blink {
+  0%,6%,50%,56%,100% {transform:scaleY(1)}
+  25% {transform:scaleY(0.05)}
+}
+.nose {
+  width:18px; height:14px; background:#ff9fc7; border-radius:50%;
+  position:absolute; left:50%; top:92px; transform:translateX(-50%);
+}
+.whisker {
+  width:70px; height:6px;
+  background:linear-gradient(90deg,#fff6,#fff4);
+  position:absolute; top:102px; border-radius:6px;
+}
+.whisker.left { left:-10px; }
+.whisker.right { right:-10px; }
+.body {
+  width:220px; height:100px;
+  background:linear-gradient(180deg,#ffd6e8,#ff7ab6);
+  border-radius:120px; position:absolute; top:150px; left:0;
+  box-shadow:0 12px 30px rgba(0,0,0,0.2);
+}
+.tail {
+  width:18px; height:120px;
+  background:linear-gradient(180deg,#ffb3d2,#ff7ab6);
+  position:absolute; right:14px; top:90px;
+  border-radius:18px; transform-origin:top;
+  animation:tail 1.4s ease-in-out infinite;
+}
+@keyframes tail {
+  0%{transform:rotate(10deg)} 50%{transform:rotate(-20deg)} 100%{transform:rotate(10deg)}
+}
+
+/* Confetti */
+.confetti-piece {
+  position:absolute;
+  width:10px; height:18px;
+  border-radius:3px;
+  animation:fall 3.5s linear infinite;
+}
+@keyframes fall {
+  0%{transform:translateY(-30vh) rotate(0deg)}
+  100%{transform:translateY(120vh) rotate(540deg)}
+}
+
+/* Button */
+.play-btn {
+  background: var(--accent);
+  color: #fff;
+  font-size:20px;
+  border:none;
+  border-radius:12px;
+  padding:12px 28px;
+  cursor:pointer;
+  margin-top:24px;
+  box-shadow:0 0 10px #ffb6f9;
+  transition:all 0.3s ease;
+}
+.play-btn:hover {
+  background: var(--gold);
+  color:#2b0b3a;
+  box-shadow:0 0 15px #ffd27f;
+}
+.footer { margin-top:30px; font-size:17px; opacity:0.9; }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <h1>💖 Happy Birthday, Gurumaa (Ishpita Ji)! 💖</h1>
+  <div class="subtitle">You are a light of love, laughter, and blessings. ✨</div>
+
+  <div class="bigwish">🎀 May your heart always dance in joy, your path shine in gold, and your days bloom with magic! 🎀</div>
+
+  <div class="message">
+    <strong>SADA MUJHE ASHIRWAD DO AUR CHAKU MAARTE RAHOOO </strong> — App Pookieee hooo 
+  </div>
+
+  <div class="cat-wrap">
+    <div class="cat">
+      <div class="ear left"></div>
+      <div class="ear right"></div>
+      <div class="head">
+        <div class="eye left"><div class="pupil"></div></div>
+        <div class="eye right"><div class="pupil"></div></div>
+        <div class="nose"></div>
+        <div class="whisker left"></div>
+        <div class="whisker right"></div>
+      </div>
+      <div class="body"></div>
+      <div class="tail"></div>
+    </div>
+  </div>
+
+  
+
+  <div class="footer">— Sending oceans of love, sparkles, and cake! 🎂💫</div>
+</div>
+
+<div id="confetti"></div>
+
+<audio id="birthdaySong" autoplay loop muted>
+  <!-- Replace with your file name -->
+  <source src="Hindi ishq  hai  Tamil kadhale  telugu premalu helu  #shorts.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.title = "💖 Gurumaa ka Boday 💖";
+
+// Confetti setup
+const container = document.getElementById('confetti');
+const colors = ['#ff99cc','#ffd6e8','#ffd87a','#b39fff','#ffb3d2'];
+for(let i=0;i<40;i++){
+  const p = document.createElement('div');
+  p.className='confetti-piece';
+  p.style.left=(Math.random()*100)+'%';
+  p.style.background=colors[Math.floor(Math.random()*colors.length)];
+  p.style.animationDuration=(2.5+Math.random()*3)+'s';
+  container.appendChild(p);
+}
+
+
+
+<div id="unmuteOverlay" style="position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);
+display:flex;align-items:center;justify-content:center;z-index:9999;color:white;font-size:28px;
+text-shadow:0 0 10px #ffb6f9;animation:fadeIn 1s;">
+  🔊 Tap anywhere to unmute
+</div>
+<style>
+@keyframes fadeOut { from {opacity:1;} to {opacity:0;} }
+</style>
+<script>
+const audio = document.getElementById('birthdaySong');
+const overlay = document.getElementById('unmuteOverlay');
+document.body.addEventListener('click', () => {
+  audio.muted = false;
+  audio.play();
+  overlay.style.animation = 'fadeOut 1s forwards';
+  setTimeout(()=>overlay.remove(), 1000);
+}, { once:true });
+</script>
+
+</body>
+</html>
